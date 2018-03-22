@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 
 
-@app.route('/star')
+@app.route('/start')
 def getStart():
 	return "main"
 
