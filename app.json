@@ -1,0 +1,13 @@
+{
+  "name": "Heroku Basic Flask",
+  "description": "Math functions.",
+  "keywords": [
+    "stream-framework",
+    "HTML5",
+    "python"
+  ],
+  "repository": "https://github.com/marv950819/math_functions.git",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-multi.git"
+  }
+}
