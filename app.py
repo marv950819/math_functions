@@ -1,24 +1,24 @@
 from flask import Flask, jsonify
 from flask import request
-from util import DateConverter
-from util import ListStringConverter
-from util import ListIntConverter
-from util import ListofRoutesConverter
-from travel_planner_refactoring import finalResult
 import datetime
 app = Flask(__name__)
 
 
 
-
-
-@app.route('/start')
-def getStart():
-	return "main"
+print "hola"
 
 
 
+# # import numpy as np
+# # import pandas as pd
+# # from scipy import signal
+# # import json
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# @app.route('/start')
+# def start():
+# 	return "main"
+
+
+#  if __name__ == '__main__':
+#     app.run(debug=True)
 
