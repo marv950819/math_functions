@@ -8,11 +8,9 @@ import json
 app = Flask(__name__)
 
 
-def hello_world():
-  return 'POR FIN MIERDA!'
 
-@app.route('/hello_world')
-def get_planner(coornenadas):
+@app.route('/hello_world', methods=['POST'])
+def hello_world(coornenadas):
     df = coornenadas.convert_objects(convert_numeric=True)
     xs = df.y 
     data = np.sin(xs)
