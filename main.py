@@ -6,7 +6,7 @@ import json
 
 app = Flask(__name__)
 
-@app.route('/hello_world',methods=['GET','POST'])
+@app.route('/Picos',methods=['GET','POST'])
 def hello_world():
   if request.method == 'POST':
     data = request.json
