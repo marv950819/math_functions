@@ -1,8 +1,5 @@
 adal
 alabaster
-anaconda-client
-anaconda-navigator
-anaconda-project
 applicationinsights
 arrow
 asn1crypto
